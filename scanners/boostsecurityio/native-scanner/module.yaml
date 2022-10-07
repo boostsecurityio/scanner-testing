@@ -1,0 +1,21 @@
+api_version: 1.0
+
+
+id: scanner
+name: Boost Native Scanner
+namespace: default
+
+
+config:
+  support_diff_scan: true
+
+
+steps:
+    - scan:
+        command:
+          docker:
+            image: public.ecr.aws/boostsecurityio/boost-scanner-native:954b2f8@sha256:a6e456f9d2ae2abae1bf0669ace76702e32280a583e986f969ac10f8fae59445
+            command: scanner scan
+            workdir: /src
+          name: scanner
+        format: sarif

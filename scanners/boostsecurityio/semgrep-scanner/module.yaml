@@ -1,0 +1,25 @@
+api_version: 1.0
+
+id: boostsecurity-semgrep-scanner
+name: Boostsecurity Semgrep Scanner
+namespace: boost-semgrep
+
+config:
+  support_diff_scan: true
+
+steps:
+  - scan:
+      command:
+        docker:
+          image: returntocorp/semgrep:0.112@sha256:22cdfb541673843cf8950df1a9cc386237435517f41f0d40bd9b7e306076441f
+          command: semgrep scan --sarif --quiet --disable-version-check --metrics off
+          workdir: /src
+          environment:
+            XDG_CONFIG_HOME: /tmp
+            HOME: /tmp
+            SEMGREP_RULES: p/ci
+      format: sarif
+      post-processor:
+        docker:
+          image: public.ecr.aws/boostsecurityio/boost-scanner-semgrep:fc4e93d@sha256:29a92ab5faaf254eb1a9e9beebbe6ea8341c50748de5579aeecc8a30fb07ab9b
+          command: process
