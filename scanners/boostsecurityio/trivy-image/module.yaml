@@ -1,9 +1,9 @@
 api_version: 1.0
 
 
-id: boostsecurity-trivy-image
+id: boostsecurityio/trivy-image
 name: Boostsecurity Trivy Image Scanner
-namespace: boostsecurity/trivy-image
+namespace: boostsecurityio/trivy-image
 
 
 config:
