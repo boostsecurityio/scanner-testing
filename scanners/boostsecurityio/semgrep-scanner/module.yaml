@@ -1,8 +1,8 @@
 api_version: 1.0
 
-id: boostsecurity/semgrep
+id: boostsecurityio/semgrep
 name: Boostsecurity Semgrep Scanner
-namespace: boostsecurity/semgrep
+namespace: boostsecurityio/semgrep
 
 config:
   support_diff_scan: true
