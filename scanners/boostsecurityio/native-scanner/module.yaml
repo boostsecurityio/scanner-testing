@@ -1,9 +1,9 @@
 api_version: 1.0
 
 
-id: scanner
+id: boostsecurityio/native-scanner
 name: Boost Native Scanner
-namespace: default
+namespace: boostsecurityio/native-scanner
 
 
 config:
