@@ -24,3 +24,4 @@ jobs:
         with:
           api_token: ${{ secrets.BOOST_API_TOKEN_DEV }}
           api_endpoint: https://api.dev.boostsec.io
+          docs_url: https://docs.dev.boostsec.io
