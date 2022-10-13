@@ -22,6 +22,6 @@ jobs:
       - name: Scan Registry
         uses: boostsecurityio/scanner-registry-action@v1.0.0
         with:
-          api_token: ${{ secrets.BOOST_API_TOKEN_DEV }}
+          api_token: ${{ secrets.BOOST_SYSTEM_API_KEY_REGISTRY_DEV }}
           api_endpoint: https://api.dev.boostsec.io
           docs_url: https://docs.dev.boostsec.io
