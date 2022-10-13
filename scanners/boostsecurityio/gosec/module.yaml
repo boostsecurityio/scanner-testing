@@ -1,0 +1,23 @@
+api_version: 1.0
+
+
+id: boostsecurityio/gosec
+name: Boostsecurity GoSec Scanner
+namespace: boostsecurityio/gosec
+
+
+config:
+  require_full_repo: true
+  support_diff_scan: true
+
+
+steps:
+  - scan:
+      command:
+        docker:
+          image: securego/gosec:2.13.1@sha256:622e8f6b4fd4f0d3d30e19a80f68b95aedec899ade6f42889e5fb3e2d95528f8
+          command: -fmt sarif -no-fail -track-suppressions .
+          workdir: /app
+          environment:
+            HOME: /tmp/gosec
+      format: sarif

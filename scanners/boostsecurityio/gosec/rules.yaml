@@ -1,0 +1,326 @@
+rules:
+  G111:
+    categories:
+      - ALL
+      - cwe-22
+    group: CWE
+    name: G111
+    pretty_name: CWE-22 - Path Traversal
+    description: The software does not properly neutralize special elements within the pathname.
+    ref: https://cwe.mitre.org/data/definitions/22.html
+
+  G304:
+    categories:
+      - ALL
+      - cwe-22
+    group: CWE
+    name: G304
+    pretty_name: CWE-22 - Path Traversal
+    description: The software does not properly neutralize special elements within the pathname.
+    ref: https://cwe.mitre.org/data/definitions/22.html
+
+  G305:
+    categories:
+      - ALL
+      - cwe-22
+    group: CWE
+    name: G305
+    pretty_name: CWE-22 - Path Traversal
+    description: The software does not properly neutralize special elements within the pathname.
+    ref: https://cwe.mitre.org/data/definitions/22.html
+
+  G204:
+    categories:
+      - ALL
+      - cwe-78
+    group: CWE
+    name: G204
+    pretty_name: CWE-78 - OS Command Injection
+    description: The software does not eutralize or incorrectly neutralizes special elements that could modify the intended OS command.
+    ref: https://cwe.mitre.org/data/definitions/78.html
+
+  G203:
+    categories:
+      - ALL
+      - cwe-79
+    group: CWE
+    name: G203
+    pretty_name: CWE-79 - Cross-site Scripting
+    description: The software does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output.
+    ref: https://cwe.mitre.org/data/definitions/79.html
+
+  G107:
+    categories:
+      - ALL
+    group: CWE
+    name: G107
+    pretty_name: CWE-88 - Argument Injection
+    description: The software does not properly delimit the intended arguments, options, or switches within that command string.
+    ref: https://cwe.mitre.org/data/definitions/88.html
+
+  G201:
+    categories:
+      - ALL
+      - cwe-89
+    group: CWE
+    name: G201
+    pretty_name: CWE-89 - SQL Injection
+    description: The software does not neutralize or incorrectly neutralizes special elements that could modify the intended SQL command.
+    ref: https://cwe.mitre.org/data/definitions/89.html
+
+  G202:
+    categories:
+      - ALL
+      - cwe-89
+    group: CWE
+    name: G202
+    pretty_name: CWE-89 - SQL Injection
+    description: The software does not neutralize or incorrectly neutralizes special elements that could modify the intended SQL command.
+    ref: https://cwe.mitre.org/data/definitions/89.html
+
+  G601:
+    categories:
+      - ALL
+    group: CWE
+    name: G601
+    pretty_name: CWE-118 - Range Error
+    description: The software does not restrict or incorrectly restricts operations within the boundaries of a resource.
+    ref: https://cwe.mitre.org/data/definitions/118.html
+
+  G109:
+    categories:
+      - ALL
+    group: CWE
+    name: G109
+    pretty_name: CWE-190 - Integer Overflow or Wraparound
+    description: The software performs a calculation that can produce an integer overflow or wraparound.
+    ref: https://cwe.mitre.org/data/definitions/190.html
+
+  G113:
+    categories:
+      - ALL
+    group: CWE
+    name: G113
+    pretty_name: CWE-190 - Integer Overflow or Wraparound
+    description: The software performs a calculation that can produce an integer overflow or wraparound.
+    ref: https://cwe.mitre.org/data/definitions/190.html
+
+  G102:
+    categories:
+      - ALL
+      - cwe-200
+    group: CWE
+    name: G102
+    pretty_name: CWE-200 - Exposure of Sensitive Information
+    description: The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.
+    ref: https://cwe.mitre.org/data/definitions/200.html
+
+  G108:
+    categories:
+      - ALL
+      - cwe-200
+    group: CWE
+    name: G108
+    pretty_name: CWE-200 - Exposure of Sensitive Information
+    description: The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.
+    ref: https://cwe.mitre.org/data/definitions/200.html
+
+  G103:
+    categories:
+      - ALL
+    group: CWE
+    name: G103
+    pretty_name: CWE-242 - Use of Inherently Dangerous Function
+    description: The program calls a function that can never be guaranteed to work safely.
+    ref: https://cwe.mitre.org/data/definitions/242.html
+
+  G301:
+    categories:
+      - ALL
+    group: CWE
+    name: G301
+    pretty_name: CWE-276 - Incorrect Default Permissions
+    description: During installation, installed file permissions are set to allow anyone to modify those files.
+    ref: https://cwe.mitre.org/data/definitions/276.html
+
+  G302:
+    categories:
+      - ALL
+    group: CWE
+    name: G302
+    pretty_name: CWE-276 - Incorrect Default Permissions
+    description: During installation, installed file permissions are set to allow anyone to modify those files.
+    ref: https://cwe.mitre.org/data/definitions/276.html
+
+  G306:
+    categories:
+      - ALL
+    group: CWE
+    name: G306
+    pretty_name: CWE-276 - Incorrect Default Permissions
+    description: During installation, installed file permissions are set to allow anyone to modify those files.
+    ref: https://cwe.mitre.org/data/definitions/276.html
+
+  G402:
+    categories:
+      - ALL
+      - cwe-295
+    group: CWE
+    name: G402
+    pretty_name: CWE-295 - Improper Certificate Validation
+    description: The software does not validate, or incorrectly validates, a certificate.
+    ref: https://cwe.mitre.org/data/definitions/295.html
+
+  G403:
+    categories:
+      - ALL
+      - cwe-310
+    group: CWE
+    name: G403
+    pretty_name: CWE-310 - Cryptographic Issues
+    description: The code contains a weakness related to the design and implementation of data confidentiality and integrity.
+    ref: https://cwe.mitre.org/data/definitions/310.html
+
+  G106:
+    categories:
+      - ALL
+    group: CWE
+    name: G106
+    pretty_name: CWE-322 - Key Exchange without Entity Authentication
+    description: The software performs a key exchange with an actor without verifying the identity of that actor.
+    ref: https://cwe.mitre.org/data/definitions/322.html
+
+  G401:
+    categories:
+      - ALL
+      - cwe-326
+    group: CWE
+    name: G401
+    pretty_name: CWE-326 - Inadequate Encryption Strength
+    description: The software stores or transmits sensitive data using an encryption scheme that is theoretically sound, but is not strong enough for the level of protection required.
+    ref: https://cwe.mitre.org/data/definitions/326.html
+
+  G501:
+    categories:
+      - ALL
+      - cwe-327
+    group: CWE
+    name: G501
+    pretty_name: CWE-327 - Use of a Broken or Risky Cryptographic Algorithm
+    description: The use of a broken or risky cryptographic algorithm is an unnecessary risk that may result in the exposure of sensitive information.
+    ref: https://cwe.mitre.org/data/definitions/327.html
+
+  G502:
+    categories:
+      - ALL
+      - cwe-327
+    group: CWE
+    name: G502
+    pretty_name: CWE-327 - Use of a Broken or Risky Cryptographic Algorithm
+    description: The use of a broken or risky cryptographic algorithm is an unnecessary risk that may result in the exposure of sensitive information.
+    ref: https://cwe.mitre.org/data/definitions/327.html
+
+  G503:
+    categories:
+      - ALL
+      - cwe-327
+    group: CWE
+    name: G503
+    pretty_name: CWE-327 - Use of a Broken or Risky Cryptographic Algorithm
+    description: The use of a broken or risky cryptographic algorithm is an unnecessary risk that may result in the exposure of sensitive information.
+    ref: https://cwe.mitre.org/data/definitions/327.html
+
+  G504:
+    categories:
+      - ALL
+      - cwe-327
+    group: CWE
+    name: G504
+    pretty_name: CWE-327 - Use of a Broken or Risky Cryptographic Algorithm
+    description: The use of a broken or risky cryptographic algorithm is an unnecessary risk that may result in the exposure of sensitive information.
+    ref: https://cwe.mitre.org/data/definitions/327.html
+
+  G505:
+    categories:
+      - ALL
+      - cwe-327
+    group: CWE
+    name: G505
+    pretty_name: CWE-327 - Use of a Broken or Risky Cryptographic Algorithm
+    description: The use of a broken or risky cryptographic algorithm is an unnecessary risk that may result in the exposure of sensitive information.
+    ref: https://cwe.mitre.org/data/definitions/327.html
+
+  G404:
+    categories:
+      - ALL
+      - cwe-338
+    group: CWE
+    name: G404
+    pretty_name: CWE-338 - Use of Cryptographically Weak Pseudo-Random Number Generator
+    description: The product uses a Pseudo-Random Number Generator (PRNG) in a security context, but the PRNG's algorithm is not cryptographically strong.
+    ref: https://cwe.mitre.org/data/definitions/338.html
+
+  G303:
+    categories:
+      - ALL
+    group: CWE
+    name: G303
+    pretty_name: CWE-377 - Insecure Temporary File
+    description: Creating and using insecure temporary files can leave application and system data vulnerable to attack.
+    ref: https://cwe.mitre.org/data/definitions/377.html
+
+  G112:
+    categories:
+      - ALL
+      - cwe-400
+    group: CWE
+    name: G112
+    pretty_name: CWE-400 - Uncontrolled Resource Consumption
+    description: The software does not properly control the allocation and maintenance of a limited resource, thereby enabling an actor to influence the amount of resources consumed, eventually leading to the exhaustion of available resources.
+    ref: https://cwe.mitre.org/data/definitions/400.html
+
+  G110:
+    categories:
+      - ALL
+    group: CWE
+    name: G110
+    pretty_name: CWE-409 - Improper Handling of Highly Compressed Data
+    description: The software does not handle or incorrectly handles a compressed input with a very high compression ratio that produces a large output.
+    ref: https://cwe.mitre.org/data/definitions/409.html
+
+  G114:
+    categories:
+      - ALL
+    group: CWE
+    name: G114
+    pretty_name: CWE-676 - Use of Potentially Dangerous Function
+    description: The program invokes a potentially dangerous function that could introduce a vulnerability if it is used incorrectly, but the function can also be used safely.
+    ref: https://cwe.mitre.org/data/definitions/676.html
+
+  G104:
+    categories:
+      - ALL
+    group: CWE
+    name: G104
+    pretty_name: CWE-703 - Improper Check or Handling of Exceptional Conditions
+    description: The software does not properly anticipate or handle exceptional conditions that rarely occur during normal operation of the software.
+    ref: https://cwe.mitre.org/data/definitions/703.html
+
+  G307:
+    categories:
+      - ALL
+    group: CWE
+    name: G307
+    pretty_name: CWE-703 - Improper Check or Handling of Exceptional Conditions
+    description: The software does not properly anticipate or handle exceptional conditions that rarely occur during normal operation of the software.
+    ref: https://cwe.mitre.org/data/definitions/703.html
+
+  G101:
+    categories:
+      - ALL
+      - cwe-798
+    group: CWE
+    name: G101
+    pretty_name: CWE-798 - Use of Hard-coded Credentials
+    description: The software contains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data.
+    ref: https://cwe.mitre.org/data/definitions/798.html
