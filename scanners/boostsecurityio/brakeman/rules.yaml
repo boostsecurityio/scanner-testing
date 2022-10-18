@@ -1,8 +1,8 @@
 rules:
   CWE-1004:
     categories:
-      - cwe-1004
       - ALL
+      - cwe-1004
     description: The software uses a cookie to store sensitive information, but the cookie is not marked with the HttpOnly flag.
     group: CWE Top 25
     name: CWE-1004
