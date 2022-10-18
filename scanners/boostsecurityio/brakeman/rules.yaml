@@ -305,3 +305,4 @@ rules:
     name: CWE-95
     pretty_name: CWE-95 - Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')
     ref: https://cwe.mitre.org/data/definitions/95.html
+
