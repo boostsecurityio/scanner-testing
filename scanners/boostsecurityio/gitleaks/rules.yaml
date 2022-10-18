@@ -1,5 +1,6 @@
 rules:
   CWE-798:
+    group: Stored Secrets
     ref: https://github.com/zricethezav/gitleaks
     description: The software contains hard-coded credentials, such as a password or cryptographic key, which it uses for its own inbound authentication, outbound communication to external components, or encryption of internal data.
     categories:
