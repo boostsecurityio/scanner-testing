@@ -61,7 +61,7 @@ rules:
     description: The software does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output.
     ref: https://cwe.mitre.org/data/definitions/79.html
 
-  G107:
+  "Url provided to HTTP request as taint input":
     categories:
       - ALL
     group: CWE Top 25
