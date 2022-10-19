@@ -11,6 +11,14 @@ config:
 setup:
   - name: Download CodeQL bundle
     run: |
+      case "$CODEQL_LANGUAGE" in
+        html|cpp|ruby|python|javascript|csv|csharp|xml|go|java|properties) ;;
+        *) echo "Invalid value for CODEQL_LANGUAGE '$CODEQL_LANGUAGE'."
+           echo "Supported languages are html, cpp, ruby, python, " \
+                 "javascript, csv, csharp, xml, go, java, properties."
+           exit 1;;
+      esac
+
       curl -fsSL -O "https://github.com/github/codeql-action/releases/download/codeql-bundle-20221010/codeql-bundle-linux64.tar.gz"
 
       echo "38ecbfeb314f76a267ddb902cc4198d28ee56b0e1d87e030254391c0a8536c6c  codeql-bundle-linux64.tar.gz" | sha256sum --check
