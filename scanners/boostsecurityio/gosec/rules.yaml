@@ -1,5 +1,5 @@
 rules:
-  G111:
+  "Detect http.Dir('/') as a potential risk":
     categories:
       - ALL
       - cwe-22
@@ -13,7 +13,7 @@ rules:
     description: The software does not properly neutralize special elements within the pathname.
     ref: https://cwe.mitre.org/data/definitions/22.html
 
-  G304:
+  "File path provided as taint input":
     categories:
       - ALL
       - cwe-22
@@ -27,7 +27,7 @@ rules:
     description: The software does not properly neutralize special elements within the pathname.
     ref: https://cwe.mitre.org/data/definitions/22.html
 
-  G305:
+  "File path traversal when extracting zip archive":
     categories:
       - ALL
       - cwe-22
@@ -41,7 +41,7 @@ rules:
     description: The software does not properly neutralize special elements within the pathname.
     ref: https://cwe.mitre.org/data/definitions/22.html
 
-  G204:
+  "Audit use of command execution":
     categories:
       - ALL
       - cwe-78
@@ -51,7 +51,7 @@ rules:
     description: The software does not eutralize or incorrectly neutralizes special elements that could modify the intended OS command.
     ref: https://cwe.mitre.org/data/definitions/78.html
 
-  G203:
+  "Use of unescaped data in HTML templates":
     categories:
       - ALL
       - cwe-79
@@ -70,7 +70,7 @@ rules:
     description: The software does not properly delimit the intended arguments, options, or switches within that command string.
     ref: https://cwe.mitre.org/data/definitions/88.html
 
-  G201:
+  "SQL query construction using format string":
     categories:
       - ALL
       - cwe-89
@@ -80,7 +80,7 @@ rules:
     description: The software does not neutralize or incorrectly neutralizes special elements that could modify the intended SQL command.
     ref: https://cwe.mitre.org/data/definitions/89.html
 
-  G202:
+  "SQL query construction using string concatenation":
     categories:
       - ALL
       - cwe-89
@@ -90,7 +90,7 @@ rules:
     description: The software does not neutralize or incorrectly neutralizes special elements that could modify the intended SQL command.
     ref: https://cwe.mitre.org/data/definitions/89.html
 
-  G601:
+  "Implicit memory aliasing in RangeStmt":
     categories:
       - ALL
     group: CWE Top 25
@@ -99,7 +99,7 @@ rules:
     description: The software does not restrict or incorrectly restricts operations within the boundaries of a resource.
     ref: https://cwe.mitre.org/data/definitions/118.html
 
-  G109:
+  "Converting strconv.Atoi result to int32/int16":
     categories:
       - ALL
     group: CWE Top 25
@@ -108,7 +108,7 @@ rules:
     description: The software performs a calculation that can produce an integer overflow or wraparound.
     ref: https://cwe.mitre.org/data/definitions/190.html
 
-  G113:
+  "Usage of Rat.SetString in math/big with an overflow":
     categories:
       - ALL
     group: CWE Top 25
@@ -117,7 +117,7 @@ rules:
     description: The software performs a calculation that can produce an integer overflow or wraparound.
     ref: https://cwe.mitre.org/data/definitions/190.html
 
-  G102:
+  "Bind to all interfaces":
     categories:
       - ALL
       - cwe-200
@@ -127,7 +127,7 @@ rules:
     description: The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.
     ref: https://cwe.mitre.org/data/definitions/200.html
 
-  G108:
+  "Profiling endpoint is automatically exposed":
     categories:
       - ALL
       - cwe-200
@@ -137,7 +137,7 @@ rules:
     description: The product exposes sensitive information to an actor that is not explicitly authorized to have access to that information.
     ref: https://cwe.mitre.org/data/definitions/200.html
 
-  G103:
+  "Audit the use of unsafe block":
     categories:
       - ALL
     group: CWE Top 25
@@ -146,7 +146,7 @@ rules:
     description: The program calls a function that can never be guaranteed to work safely.
     ref: https://cwe.mitre.org/data/definitions/242.html
 
-  G301:
+  "Poor file permissions used when creating a directory":
     categories:
       - ALL
     group: CWE Top 25
@@ -155,7 +155,7 @@ rules:
     description: During installation, installed file permissions are set to allow anyone to modify those files.
     ref: https://cwe.mitre.org/data/definitions/276.html
 
-  G302:
+  "Poor file permissions used when creation file or using chmod":
     categories:
       - ALL
     group: CWE Top 25
@@ -164,7 +164,7 @@ rules:
     description: During installation, installed file permissions are set to allow anyone to modify those files.
     ref: https://cwe.mitre.org/data/definitions/276.html
 
-  G306:
+  "Poor file permissions used when writing to a file":
     categories:
       - ALL
     group: CWE Top 25
@@ -173,7 +173,7 @@ rules:
     description: During installation, installed file permissions are set to allow anyone to modify those files.
     ref: https://cwe.mitre.org/data/definitions/276.html
 
-  G402:
+  "Look for bad TLS connection settings":
     categories:
       - ALL
       - cwe-295
@@ -183,7 +183,7 @@ rules:
     description: The software does not validate, or incorrectly validates, a certificate.
     ref: https://cwe.mitre.org/data/definitions/295.html
 
-  G403:
+  "Ensure minimum RSA key length of 2048 bits":
     categories:
       - ALL
       - cwe-310
@@ -193,7 +193,7 @@ rules:
     description: The code contains a weakness related to the design and implementation of data confidentiality and integrity.
     ref: https://cwe.mitre.org/data/definitions/310.html
 
-  G106:
+  "Audit the use of ssh.InsecureIgnoreHostKey function":
     categories:
       - ALL
     group: CWE Top 25
@@ -202,7 +202,7 @@ rules:
     description: The software performs a key exchange with an actor without verifying the identity of that actor.
     ref: https://cwe.mitre.org/data/definitions/322.html
 
-  G401:
+  "Detect the usage of DES, RC4, MD5 or SHA1":
     categories:
       - ALL
       - cwe-326
@@ -212,7 +212,7 @@ rules:
     description: The software stores or transmits sensitive data using an encryption scheme that is theoretically sound, but is not strong enough for the level of protection required.
     ref: https://cwe.mitre.org/data/definitions/326.html
 
-  G501:
+  "Import blocklist: crypto/md5":
     categories:
       - ALL
       - cwe-327
@@ -222,7 +222,7 @@ rules:
     description: The use of a broken or risky cryptographic algorithm is an unnecessary risk that may result in the exposure of sensitive information.
     ref: https://cwe.mitre.org/data/definitions/327.html
 
-  G502:
+  "Import blocklist: crypto/des":
     categories:
       - ALL
       - cwe-327
@@ -232,7 +232,7 @@ rules:
     description: The use of a broken or risky cryptographic algorithm is an unnecessary risk that may result in the exposure of sensitive information.
     ref: https://cwe.mitre.org/data/definitions/327.html
 
-  G503:
+  "Import blocklist: crypto/rc4":
     categories:
       - ALL
       - cwe-327
@@ -242,7 +242,7 @@ rules:
     description: The use of a broken or risky cryptographic algorithm is an unnecessary risk that may result in the exposure of sensitive information.
     ref: https://cwe.mitre.org/data/definitions/327.html
 
-  G504:
+  "Import blocklist: net/http/cgi":
     categories:
       - ALL
       - cwe-327
@@ -252,7 +252,7 @@ rules:
     description: The use of a broken or risky cryptographic algorithm is an unnecessary risk that may result in the exposure of sensitive information.
     ref: https://cwe.mitre.org/data/definitions/327.html
 
-  G505:
+  "Import blocklist: crypto/sha1":
     categories:
       - ALL
       - cwe-327
@@ -262,7 +262,7 @@ rules:
     description: The use of a broken or risky cryptographic algorithm is an unnecessary risk that may result in the exposure of sensitive information.
     ref: https://cwe.mitre.org/data/definitions/327.html
 
-  G404:
+  "Insecure random number source (rand)":
     categories:
       - ALL
       - cwe-338
@@ -272,7 +272,7 @@ rules:
     description: The product uses a Pseudo-Random Number Generator (PRNG) in a security context, but the PRNG's algorithm is not cryptographically strong.
     ref: https://cwe.mitre.org/data/definitions/338.html
 
-  G303:
+  "Creating tempfile using a predictable path":
     categories:
       - ALL
     group: CWE Top 25
@@ -281,7 +281,7 @@ rules:
     description: Creating and using insecure temporary files can leave application and system data vulnerable to attack.
     ref: https://cwe.mitre.org/data/definitions/377.html
 
-  G112:
+  "Detect ReadHeaderTimeout not configured as a potential risk":
     categories:
       - ALL
       - cwe-400
@@ -291,7 +291,7 @@ rules:
     description: The software does not properly control the allocation and maintenance of a limited resource, thereby enabling an actor to influence the amount of resources consumed, eventually leading to the exhaustion of available resources.
     ref: https://cwe.mitre.org/data/definitions/400.html
 
-  G110:
+  "Detect io.Copy instead of io.CopyN when decompression":
     categories:
       - ALL
     group: CWE Top 25
@@ -300,7 +300,7 @@ rules:
     description: The software does not handle or incorrectly handles a compressed input with a very high compression ratio that produces a large output.
     ref: https://cwe.mitre.org/data/definitions/409.html
 
-  G114:
+  "Use of net/http serve function that has no support for setting timeouts":
     categories:
       - ALL
     group: CWE Top 25
@@ -309,7 +309,7 @@ rules:
     description: The program invokes a potentially dangerous function that could introduce a vulnerability if it is used incorrectly, but the function can also be used safely.
     ref: https://cwe.mitre.org/data/definitions/676.html
 
-  G104:
+  "Audit errors not checked":
     categories:
       - ALL
     group: CWE Top 25
@@ -318,7 +318,7 @@ rules:
     description: The software does not properly anticipate or handle exceptional conditions that rarely occur during normal operation of the software.
     ref: https://cwe.mitre.org/data/definitions/703.html
 
-  G307:
+  "Unsafe defer call of a method returning an error":
     categories:
       - ALL
     group: CWE Top 25
@@ -327,7 +327,7 @@ rules:
     description: The software does not properly anticipate or handle exceptional conditions that rarely occur during normal operation of the software.
     ref: https://cwe.mitre.org/data/definitions/703.html
 
-  G101:
+  "Look for hardcoded credentials":
     categories:
       - ALL
       - cwe-798
