@@ -1,6 +1,6 @@
 api_version: 1.0
 
-id: boostsecurity-gitleaks-scanner
+id: boostsecurityio/gitleaks
 name: Boost GitLeaks Scanner
 namespace: boostsecurityio/gitleaks
 
