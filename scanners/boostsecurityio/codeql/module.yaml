@@ -5,7 +5,8 @@ name: Boost CodeQL Scanner
 namespace: boostsecurityio/codeql
 
 config:
-  support_diff_scan: false
+  support_diff_scan: true
+  require_full_repo: true
 
 setup:
   - name: Download CodeQL bundle
