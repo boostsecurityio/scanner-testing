@@ -20,4 +20,4 @@ steps:
 
       post-processor:
         docker:
-          image: public.ecr.aws/boostsecurityio/boost-scanner-gitleaks:a671ac7@sha256:d86ce504723c6fef1d1236726044c1737ee612a506074d95ee9d1432bc85500a
+          image: public.ecr.aws/boostsecurityio/boost-scanner-gitleaks:608b2f6@sha256:d363ccc69756669c26c9969e7a210c5f05e34cd06eaedbc613dfb7f02f4d679a
