@@ -13,7 +13,7 @@ steps:
       command:
         docker:
           image: zricethezav/gitleaks:v8.15.0@sha256:ebf35c0373d275e0a65e424a35343a9c243bff848fc6c3340c410f59e6616cc8
-          command: detect --no-banner --exit-code 0 --redact --report-format sarif --report-path /dev/stdout --no-git --source /src
+          command: detect --no-banner --exit-code 0 --redact --report-format sarif --report-path /dev/stdout --no-git --source .
           workdir: /src
           environment:
             GITLEAKS_CONFIG: ${GITLEAKS_CONFIG:-}
