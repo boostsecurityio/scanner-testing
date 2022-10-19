@@ -1,6 +1,6 @@
 api_version: 1.0
 
-id: boostsecurity-codeql-scanner
+id: boostsecurityio/codeql
 name: Boost CodeQL Scanner
 namespace: boostsecurityio/codeql
 
