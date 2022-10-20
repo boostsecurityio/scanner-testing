@@ -6,6 +6,8 @@ namespace: boostsecurityio/gitleaks
 
 config:
   support_diff_scan: true
+  include_files:
+    - '*'
 
 steps:
   - scan:
