@@ -21,3 +21,5 @@ steps:
           environment:
             HOME: /tmp/gosec
       format: sarif
+      post-processor:
+        run: jq 'walk(if type == "object" and has("id") and has("name") then del(.name) else . end)'
