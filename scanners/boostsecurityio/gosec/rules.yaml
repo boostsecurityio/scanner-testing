@@ -275,7 +275,7 @@ rules:
   G303:
     categories:
       - ALL
-    group: ##### MISSING #####
+    group: top10-insecure-design
     name: G303
     pretty_name: "G303: Creating tempfile using a predictable path"
     description: Creating and using insecure temporary files can leave application and system data vulnerable to attack.
@@ -294,7 +294,7 @@ rules:
   G110:
     categories:
       - ALL
-    group: ##### MISSING #####
+    group: top10-insecure-design
     name: G110
     pretty_name: "G110: Potential DoS vulnerability via decompression bomb"
     description: The software does not handle or incorrectly handles a compressed input with a very high compression ratio that produces a large output.
@@ -303,7 +303,7 @@ rules:
   G114:
     categories:
       - ALL
-    group: ##### MISSING #####
+    group: top10-security-misconfiguration
     name: G114
     pretty_name: "G114: Use of net/http serve function that has no support for setting timeouts"
     description: The program invokes a potentially dangerous function that could introduce a vulnerability if it is used incorrectly, but the function can also be used safely.
@@ -312,7 +312,7 @@ rules:
   G104:
     categories:
       - ALL
-    group: ##### MISSING #####
+    group: top10-insecure-design
     name: G104
     pretty_name: "G104: Audit errors not checked"
     description: The software does not properly anticipate or handle exceptional conditions that rarely occur during normal operation of the software.
