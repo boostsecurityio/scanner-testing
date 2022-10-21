@@ -64,7 +64,7 @@ rules:
   G107:
     categories:
       - ALL
-    group: ##### MISSING #####
+    group: top10-server-side-request-forgery
     name: G107
     pretty_name: "G107: Url provided to HTTP request as taint input"
     description: The software does not properly delimit the intended arguments, options, or switches within that command string.
@@ -93,7 +93,7 @@ rules:
   G601:
     categories:
       - ALL
-    group: ##### MISSING #####
+    group: top10-insecure-design
     name: G601
     pretty_name: "G601: Implicit memory aliasing of items from a range statement"
     description: The software does not restrict or incorrectly restricts operations within the boundaries of a resource.
@@ -102,7 +102,7 @@ rules:
   G109:
     categories:
       - ALL
-    group: ##### MISSING #####
+    group: top10-insecure-design
     name: G109
     pretty_name: "G109: Potential Integer overflow made by strconv.Atoi result conversion to int16/32"
     description: The software performs a calculation that can produce an integer overflow or wraparound.
@@ -111,7 +111,7 @@ rules:
   G113:
     categories:
       - ALL
-    group: ##### MISSING #####
+    group: top10-insecure-design
     name: G113
     pretty_name: "G113: Usage of Rat.SetString in math/big with an overflow (CVE-2022-23772)"
     description: The software performs a calculation that can produce an integer overflow or wraparound.
@@ -140,7 +140,7 @@ rules:
   G103:
     categories:
       - ALL
-    group: ##### MISSING #####
+    group: top10-insecure-design
     name: G103
     pretty_name: "G103: Audit the use of unsafe block"
     description: The program calls a function that can never be guaranteed to work safely.
