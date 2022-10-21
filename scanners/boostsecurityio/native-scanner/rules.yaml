@@ -1996,7 +1996,7 @@ rules:
       - cwe-295
       - cwe-297
     description: Checks for network functions with TLS verification disabled.
-    group: ##### MISSING #####
+    group: top10-id-authn-failures
     name: tls-disabled-cert-validation
     pretty_name: TLS Verification Disabled
     ref: "{BOOSTSEC_DOC_BASE_URL}/rules/code-tls-disabled-cert-validation.html"
