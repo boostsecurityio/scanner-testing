@@ -36,6 +36,7 @@ steps:
         --no-calculate-baseline \
         --quiet \
         --threads=0 \
+        --overwrite \
         $CODEQL_CREATE_ARGS \
         -- "$SETUP_PATH/codeql-db"
 
