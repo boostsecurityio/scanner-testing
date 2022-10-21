@@ -1,6 +1,3 @@
-# Boostsecurity Scanner Registry
+# Development registry
 
-## Supported Scanners
-
-### [Snyk](scanners/boostsecurityio/snyk-test/README.md)
-### [Semgrep](scanners/boostsecurityio/semgrep/README.md)
+## FOR INTERNAL / TESTING USE ONLY
