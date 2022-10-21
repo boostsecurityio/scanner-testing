@@ -149,7 +149,7 @@ rules:
   G301:
     categories:
       - ALL
-    group: ##### MISSING #####
+    group: top10-broken-access-control
     name: G301
     pretty_name: "G301: Poor file permissions used when creating a directory"
     description: During installation, installed file permissions are set to allow anyone to modify those files.
@@ -158,7 +158,7 @@ rules:
   G302:
     categories:
       - ALL
-    group: ##### MISSING #####
+    group: top10-broken-access-control
     name: G302
     pretty_name: "G302: Poor file permissions used with chmod"
     description: During installation, installed file permissions are set to allow anyone to modify those files.
@@ -167,7 +167,7 @@ rules:
   G306:
     categories:
       - ALL
-    group: ##### MISSING #####
+    group: top10-broken-access-control
     name: G306
     pretty_name: "G306: Poor file permissions used when writing to a new file"
     description: During installation, installed file permissions are set to allow anyone to modify those files.
@@ -196,7 +196,7 @@ rules:
   G106:
     categories:
       - ALL
-    group: ##### MISSING #####
+    group: top10-id-authn-failures
     name: G106
     pretty_name: "G106: Audit the use of ssh.InsecureIgnoreHostKey"
     description: The software performs a key exchange with an actor without verifying the identity of that actor.
