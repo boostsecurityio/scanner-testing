@@ -321,7 +321,7 @@ rules:
   G307:
     categories:
       - ALL
-    group: ##### MISSING #####
+    group: top10-insecure-design
     name: G307
     pretty_name: "G307: Deferring a method which returns an error"
     description: The software does not properly anticipate or handle exceptional conditions that rarely occur during normal operation of the software.
