@@ -1412,7 +1412,7 @@ rules:
       - boost-hardened # Not sure where to put this one...
     description: Checks for mishandling of highly compressed data with a very high
       compression ratio producing large output.
-    group: ##### MISSING #####
+    group: top10-insecure-design
     name: dos-via-decompression-bomb
     pretty_name: Uncontrolled data decompression (decompression bomb)
     ref: "{BOOSTSEC_DOC_BASE_URL}/rules/code-dos-via-decompression-bomb.html"
@@ -1954,7 +1954,7 @@ rules:
       - boost-baseline
       - boost-hardened
     description: Ensure server side templates are validated
-    group: ##### MISSING #####
+    group: top10-injection
     name: server-side-template-injection
     pretty_name: Server-Side Template Injection (SSTI)
     ref: "{BOOSTSEC_DOC_BASE_URL}/rules/code-server-side-template-injection.html"
@@ -1967,7 +1967,7 @@ rules:
       - boost-hardened
     description: Checks for code issuing HTTP requests from the server-side that could
       lead to an Server-Side Request Forgery (SSRF) attack.
-    group: ##### MISSING #####
+    group: top10-server-side-request-forgery
     name: ssrf
     pretty_name: Server-Side Request Forgery (SSRF)
     ref: "{BOOSTSEC_DOC_BASE_URL}/rules/code-ssrf.html"
