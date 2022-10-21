@@ -526,7 +526,7 @@ rules:
   CWE-UNKNOWN:
     categories:
     - ALL
-    group: ##### MISSING #####
+    group: top10-insecure-design
     name: CWE-UNKNOWN
     pretty_name: CWE-UNKNOWN - Original rule did not map to a known CWE rule
     description: The original rule could not be map to a CWE rule
