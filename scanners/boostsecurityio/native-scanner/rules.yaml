@@ -1914,7 +1914,7 @@ rules:
       - cwe-78
     description: Checks for code interfacing with the file system operations that
       could lead to path traversal attack.
-    group: top10-injection
+    group: top10-broken-access-control
     name: path-traversal
     pretty_name: Path traversal
     ref: "{BOOSTSEC_DOC_BASE_URL}/rules/code-path-traversal.html"
