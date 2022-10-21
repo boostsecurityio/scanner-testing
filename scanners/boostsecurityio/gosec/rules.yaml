@@ -131,6 +131,7 @@ rules:
     categories:
       - ALL
       - cwe-200
+      - cwe-489
     group: top10-security-misconfiguration
     name: G108
     pretty_name: "G108: Profiling endpoint automatically exposed on /debug/pprof"
