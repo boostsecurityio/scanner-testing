@@ -26,7 +26,7 @@ steps:
           command: -fmt sarif -track-suppressions ./...
           workdir: /app
           environment:
-            HOME: /tmp/gosec
+            HOME: /tmp
             GITHUB_AUTHENTICATION_TOKEN: ${GITHUB_AUTHENTICATION_TOKEN:-}
       format: sarif
       post-processor:
