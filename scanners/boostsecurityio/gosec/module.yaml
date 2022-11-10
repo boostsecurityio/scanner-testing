@@ -27,6 +27,7 @@ steps:
           workdir: /app
           environment:
             HOME: /tmp/gosec
+            GITHUB_AUTHENTICATION_TOKEN: ${GITHUB_AUTHENTICATION_TOKEN:-}
       format: sarif
       post-processor:
         run: $SETUP_PATH/jq-linux64 'walk(if type == "object" and has("id") and has("name") then del(.name) else . end)'
