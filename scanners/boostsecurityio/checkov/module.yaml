@@ -6,6 +6,7 @@ namespace: boostsecurityio/checkov
 
 config:
   support_diff_scan: true
+  require_full_repo: true
 
 steps:
   - scan:
@@ -17,5 +18,5 @@ steps:
       format: sarif
       post-processor:
         docker:
-          image: public.ecr.aws/boostsecurityio/boost-scanner-checkov:2bb9870
+          image: public.ecr.aws/boostsecurityio/boost-scanner-checkov:dac6a28
           command: process
