@@ -8929,4 +8929,3 @@ rules:
     name: CKV_YC_9
     pretty_name: 'CKV_YC_9: Ensure KMS symmetric key is rotated.'
     ref: https://www.checkov.io/5.Policy%20Index/all.html
-
