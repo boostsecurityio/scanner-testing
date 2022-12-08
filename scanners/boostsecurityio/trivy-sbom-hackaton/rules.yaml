@@ -1,10 +1,10 @@
 rules:
-  tbd-sbom-rule:
+  low-rep-or-malicious-package:
     categories:
       - ALL
       - boost-baseline
-    description: Hackaton boost sbom rule.
+    description: A Potentially Low Reputation or Malicious package was added. This rule reports when an added package has a very similar package with better open source reputation and OpenSSF score. This could indicate the author pulled in the package by mistake.
     group: top10-vulnerable-components
-    name: tbd-sbom-rule
-    pretty_name: TBD hackaton sbom rule
+    name: low-rep-or-malicious-package
+    pretty_name: Potentially Low Reputation or Malicious Package Added
     ref: "https://docs.boostsecurity.net"
