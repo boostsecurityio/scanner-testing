@@ -1,0 +1,17 @@
+api_version: 1.0
+
+id: hackaton/trivy-sbom
+name: Boostsecurity Trivy SBOM for Hackaton
+namespace: hackaton/trivy-sbom
+
+config:
+  support_diff_scan: true
+
+steps:
+  - scan:
+      command:
+        docker:
+          image: aquasec/trivy:0.32.0@sha256:973d0df16189c229757aa8e81d48d112123e832d576acf5c02c4cb753451608a
+          command: fs --format=cyclonedx --cache-dir=/tmp/trivy/ /app
+          workdir: /app
+      format: cyclonedx

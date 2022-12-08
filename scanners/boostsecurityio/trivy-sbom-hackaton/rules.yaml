@@ -1,0 +1,10 @@
+rules:
+  tbd-sbom-rule:
+    categories:
+      - ALL
+      - boost-baseline
+    description: Hackaton boost sbom rule.
+    group: top10-vulnerable-components
+    name: tbd-sbom-rule
+    pretty_name: TBD hackaton sbom rule
+    ref: "https://docs.boostsecurity.net"
