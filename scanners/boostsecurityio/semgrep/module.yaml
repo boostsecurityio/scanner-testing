@@ -23,5 +23,5 @@ steps:
       format: sarif
       post-processor:
         docker:
-          image: public.ecr.aws/boostsecurityio/boost-scanner-semgrep:4620446@sha256:02d51c7cc9f7d1eb5f7332fc7be72c7d2715b17ecff07aaec140737536415d96
+          image: public.ecr.aws/boostsecurityio/boost-scanner-semgrep:1ba40bc@sha256:c4172bef0330d2d153f68d4082be2bbeedd58d971ec1451100f12acef7b5eb0a
           command: process
