@@ -1,4 +1,4 @@
-rules:
+rules: 
   cve-unknown:
     categories:
       - ALL
