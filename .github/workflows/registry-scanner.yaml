@@ -20,7 +20,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Scan Registry
-        uses: boostsecurityio/scanner-registry-action@6bd5bad3cd0de375cb69d4ab618f7a410c33e429
+        uses: boostsecurityio/scanner-registry-action@86cdcced54a9ef7865954ac50d176baa0a1b9ba6 # v1.0.2
         with:
           api_token: ${{ secrets.BOOST_SYSTEM_API_KEY_REGISTRY_DEV }}
           api_endpoint: https://api.dev.boostsec.io
